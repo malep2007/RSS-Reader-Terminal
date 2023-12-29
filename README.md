@@ -1,7 +1,6 @@
 # RSS Reader Terminal
-This is a simple RSS Feeder that works in the terminal. It allows a user to enter the link to an RSS feed of their choice and it responds with the details of the stories in that feed. 
+This is a simple RSS Reader that works with the terminal. It allows a user to enter the link to an RSS link of their choice and it responds with the details of the stories in that feed. 
 
-It follows a very basic structure from the UML diagram and uses a very simple class to get this done. 
+It follows a very basic structure from the UML diagram. 
 
-![UML Diagram]()
-![Class Diagram]()
+![UML Diagram](./rss_uml.svg)
