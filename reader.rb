@@ -17,5 +17,12 @@ class RSSReader
             end
         end
     end
-  end
+end
+
+
+if __FILE__ == $0
+    reader = RSSReader.new("http://feeds.bbci.co.uk/news/rss.xml")
+    reader.fetch
+
+    puts reader.title
 end
